@@ -36,6 +36,12 @@ class TransactionStore {
   saveToLocalStorage() {
     localStorage.setItem('transactions', JSON.stringify(this.transactions));
   }
+
+  deleteTransaction(id: number) {
+  this.transactions = this.transactions.filter(t => t.id !== id);
+  this.saveToLocalStorage();
+  }
+
 }
 
 export const transactionStore = new TransactionStore();
