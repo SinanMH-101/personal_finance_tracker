@@ -20,26 +20,6 @@ A simple and personal finance tracker built with modern web technologies. It all
 - **CSS** – Custom styles and layout
 - **LocalStorage** – Data persistence across refreshes
 
-## Project Structure
-
-```
-personal-finance-tracker/
-├── public/
-│   └── index.html
-├── src/
-│   ├── index.tsx
-│   ├── App.tsx
-│   ├── styles.css
-│   ├── components/
-│   │   ├── AddTransaction.tsx
-│   │   └── TransactionList.tsx
-│   └── store/
-│       └── TransactionStore.ts
-├── package.json
-├── tsconfig.json
-└── vite.config.ts
-```
-
 ## Getting Started
 
 ### 1. Clone the repository
